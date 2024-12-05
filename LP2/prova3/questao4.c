@@ -43,7 +43,7 @@ unsigned char** carregaImagem(int* col, int* lin, char* fileName)
 
 void printaImagem(uchar** img, int lin, int col)
 {
-    printf("%dx%d\n\n", col, lin);
+    printf("%dx%d\n\n", lin, col);
 
     for (int i = 0; i < lin; i++) {
         for (int j = 0; j < col; j++) {
